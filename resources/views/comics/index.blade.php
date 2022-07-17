@@ -22,7 +22,7 @@
                    <td>${{$comic->price}}</td>  
                    <td>{{$comic->type}}</td>  
                    <td>
-                        <a href="" class="btn btn-primary">Dettagli</a>
+                        <a href="{{route('comics.show', $comic->id)}}" class="btn btn-primary">Dettagli</a>
                         <a href="" class="btn btn-secondary">Modifica</a>
                         <a href="" class="btn btn-danger">Elimina</a>
                     </td>  
