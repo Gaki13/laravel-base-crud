@@ -30,4 +30,6 @@
             @endforeach
         </tbody>
     </table>
+
+    <a href="{{route('comics.create')}}" class="btn btn-secondary">Aggiunti il tuo fumetto qui</a>
 @endsection

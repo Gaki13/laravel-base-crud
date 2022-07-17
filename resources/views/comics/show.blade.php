@@ -5,6 +5,7 @@
 @endsection
 
 @section('page-content')
+    <a href="{{route('comics.index')}}" class="btn btn-secondary">Home</a>
     <h1>{{$comic->title}}</h1>
     <img src="{{$comic->thumb}}">
     <h2>Prezzo: ${{$comic->price}}</h2>
